@@ -109,6 +109,8 @@
   .play-list{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
   }
   
   .play-list-item{
@@ -129,7 +131,7 @@
   .play-list-item .card-body{
     display: flex;
     align-items: flex-start;
-    gap: 10px;
+    gap: 14px;
   }
   
   .card-body img{
@@ -186,25 +188,30 @@
 
   }
 
+  @media screen and (min-width: 891px)  and (max-width: 1140px)  {
 
-  @media screen and (min-width: 1140px) and (max-width: 891px) {
-
-
+    .play-list-item{
+        min-width: 241px;
+      }
 
   }
 
-  @media screen and (min-width: 890px) and (max-width: 511px) {
+  @media screen and (min-width: 510px)  and (max-width: 890px)  {
 
-
+    .play-list-item {
+        min-width: 331px;
+      }
 
   }
 
 
   @media screen and (max-width: 509px) {
 
+    .play-list-item {
+        min-width: 100%;
+      }
 
   }
-
 
 
 
