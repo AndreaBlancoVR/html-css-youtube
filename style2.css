@@ -83,6 +83,7 @@
   .main-container{
     background-color: #f8f8f8;
     flex-grow: 1;
+    width: 100%;
   }
   
   .categories{
@@ -217,7 +218,7 @@
 
     
     .play-list-item{
-      width: 90vw;;
+      width: 100%;;
       }
 
   }
